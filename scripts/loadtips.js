@@ -5,6 +5,7 @@ async function loadTips() {
     const data = await response.json();
 
     const contentDiv = document.getElementById("strategy-content");
+    console.log("Start loadTips");
 
     // Loop through each tip and build HTML content
     data.AFLFantasyTeamStrategy.forEach((item, index) => {
@@ -22,6 +23,7 @@ async function loadTips() {
       });
 
       contentDiv.appendChild(subTipsList);
+      console.log("Finish loadTips");
     });
   } catch (error) {
     console.error("Error loading the tips:", error);
@@ -29,7 +31,9 @@ async function loadTips() {
 }
 
 // Load the tips when the page loads
-window.onload = () => {
-  loadTips();
-  displayWinningStructure();
-};
+document.addEventListener("DOMContentLoaded", loadTips);
+
+// window.onload = () => {
+//   loadTips();
+//   displayWinningStructure();
+// };

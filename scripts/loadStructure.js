@@ -28,6 +28,7 @@ async function fetchCSVandConvertToJSON() {
 // Function to build and display the table
 async function displayWinningStructure() {
   const data = await fetchCSVandConvertToJSON();
+  console.log("displaywinningstructure");
   if (data.length === 0) return;
 
   const contentDiv = document.getElementById("structure-content");
@@ -58,4 +59,7 @@ async function displayWinningStructure() {
 
   // Append table to content div
   contentDiv.appendChild(table);
+  console.log("Finish displayWinning Structure");
 }
+
+document.addEventListener("DOMContentLoaded", displayWinningStructure);

@@ -1,0 +1,31 @@
+Position,Type,Priced At
+D1,Premium,103
+D2,Discounted Premium,91
+D3,Mid-Pricer,77
+D4,Mid-Pricer,55
+D5,Mid-Pricer,43
+D6,Rookie,32
+D7,Rookie,28
+D8,Rookie,23
+M1,Uber Premium,115
+M2,Premium,102
+M3,Discounted Premium,90
+M4,Discounted Premium,83
+M5,Mid-Pricer,69
+M6,Mid-Pricer,46
+M7,Rookie,34
+M8,Rookie,38
+M9,Rookie,27
+M10,Rookie,23
+R1,Premium,98
+R2,Mid-Pricer,73
+R3,Rookie,28
+Util,Rookie,23
+F1,Premium,100
+F2,Discounted Premium,84
+F3,Mid-Pricer,78
+F4,Mid-Pricer,63
+F5,Mid-Pricer,41
+F6,Rookie,28
+F7,Rookie,24
+F8,Rookie,23
